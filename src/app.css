@@ -1,0 +1,83 @@
+:root {
+  --bg: #0f0d0c;
+  --panel: #171413;
+  --panel-2: #1f1b19;
+  --line: #2c2623;
+  --line-2: #3b332f;
+  --text: #ece5d8;
+  --muted: #8d847a;
+  --ember: #d0452f;
+  --ember-hi: #ff6a4a;
+  --gold: #e0a84a;
+  --jade: #6fbf8e;
+  --display: "Chakra Petch", sans-serif;
+  --body: "Barlow", sans-serif;
+  --mono: "JetBrains Mono", monospace;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background:
+    radial-gradient(1200px 500px at 85% -10%, rgba(208, 69, 47, 0.16), transparent 60%),
+    radial-gradient(900px 400px at -10% 110%, rgba(224, 168, 74, 0.06), transparent 60%),
+    var(--bg);
+  color: var(--text);
+  font: 15px/1.45 var(--body);
+  -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  background-image: repeating-linear-gradient(135deg, #fff 0 1px, transparent 1px 7px);
+}
+
+h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: 0.02em; margin: 0; }
+
+button {
+  font: 600 13px var(--display);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text);
+  background: var(--panel-2);
+  border: 1px solid var(--line-2);
+  padding: 8px 14px;
+  cursor: pointer;
+  clip-path: polygon(8px 0, 100% 0, 100% calc(100% - 8px), calc(100% - 8px) 100%, 0 100%, 0 8px);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+button:hover:not(:disabled) { background: #2a2421; border-color: var(--muted); }
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+button.primary { background: var(--ember); border-color: var(--ember-hi); color: #fff; }
+button.primary:hover:not(:disabled) { background: var(--ember-hi); }
+button.ghost { background: transparent; border-color: transparent; color: var(--muted); }
+button.ghost:hover:not(:disabled) { color: var(--text); background: transparent; border-color: var(--line-2); }
+
+input, select {
+  font: 14px var(--body);
+  color: var(--text);
+  background: var(--panel);
+  border: 1px solid var(--line-2);
+  padding: 7px 10px;
+  outline: none;
+}
+input:focus, select:focus { border-color: var(--ember); }
+
+.eyebrow {
+  font: 600 11px var(--display);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
