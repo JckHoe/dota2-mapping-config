@@ -1,0 +1,45 @@
+{
+  "name": "LoL-like",
+  "description": "League of Legends muscle memory: QWER abilities, D/F extra abilities (summoner keys), items on 1-3 and 5-7, neutral item on 4 (trinket), TP on B (recall), Space selects/centres hero, Tab scoreboard, P shop, G scan, quick cast on.",
+  "settings": {
+    "UseHeroBindings": "0"
+  },
+  "keys": {
+    "AbilityPrimary1": "Q",
+    "AbilityPrimary2": "W",
+    "AbilityPrimary3": "E",
+    "AbilitySecondary1": "D",
+    "AbilitySecondary2": "F",
+    "AbilityUltimate": "R",
+    "AbilityPrimary1AutoCast": "ALT+Q",
+    "AbilityPrimary2AutoCast": "ALT+W",
+    "AbilityPrimary3AutoCast": "ALT+E",
+    "AbilitySecondary1AutoCast": "ALT+D",
+    "AbilitySecondary2AutoCast": "ALT+F",
+    "AbilityUltimateAutoCast": "ALT+R",
+    "Inventory1": "1",
+    "Inventory2": "2",
+    "Inventory3": "3",
+    "Inventory4": "5",
+    "Inventory5": "6",
+    "Inventory6": "7",
+    "UseActionItem": "4",
+    "InventoryTP": "B",
+    "InventoryTPAutoCast": "ALT+B",
+    "HeroAttack": "A",
+    "HeroStop": "S",
+    "HeroHold": "H",
+    "HeroSelect": "SPACE",
+    "CourierSelect": "F2",
+    "SelectAllOthers": "F3",
+    "ShopToggle": "P",
+    "ScoreboardToggle": "TAB",
+    "ControlGroupCycle": null,
+    "ChatTeam": "ENTER",
+    "ChatGlobal": "SHIFT+ENTER",
+    "ActivateRadar": "G"
+  },
+  "convars": {
+    "dota_ability_quick_cast": "true"
+  }
+}

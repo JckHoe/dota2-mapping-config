@@ -1,0 +1,42 @@
+{
+  "name": "Dota default",
+  "description": "Valve's standard layout for the core keys: QWE/DF/R abilities, ZXCVBN items, T for TP, A/M/S/H unit orders, F1 hero, F4 shop. For a full reset of every key use Settings > Hotkeys > Reset in game.",
+  "settings": {
+    "UseHeroBindings": "0"
+  },
+  "keys": {
+    "AbilityPrimary1": "Q",
+    "AbilityPrimary2": "W",
+    "AbilityPrimary3": "E",
+    "AbilitySecondary1": "D",
+    "AbilitySecondary2": "F",
+    "AbilityUltimate": "R",
+    "AbilityPrimary1AutoCast": "ALT+Q",
+    "AbilityPrimary2AutoCast": "ALT+W",
+    "AbilityPrimary3AutoCast": "ALT+E",
+    "AbilitySecondary1AutoCast": "ALT+D",
+    "AbilitySecondary2AutoCast": "ALT+F",
+    "AbilityUltimateAutoCast": "ALT+R",
+    "Inventory1": "Z",
+    "Inventory2": "X",
+    "Inventory3": "C",
+    "Inventory4": "V",
+    "Inventory5": "B",
+    "Inventory6": "N",
+    "InventoryTP": "T",
+    "InventoryTPAutoCast": "ALT+T",
+    "HeroAttack": "A",
+    "HeroMove": "M",
+    "HeroStop": "S",
+    "HeroHold": "H",
+    "HeroSelect": "F1",
+    "ShopToggle": "F4",
+    "ChatTeam": "ENTER",
+    "ChatGlobal": "SHIFT+ENTER",
+    "CameraUp": "UPARROW",
+    "CameraDown": "DOWNARROW",
+    "CameraLeft": "LEFTARROW",
+    "CameraRight": "RIGHTARROW",
+    "CameraGrip": "MOUSE3"
+  }
+}

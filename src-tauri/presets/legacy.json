@@ -1,0 +1,13 @@
+{
+  "name": "Legacy (DotA 1)",
+  "description": "Turns on Dota's Legacy Keys: Warcraft III style per-hero ability hotkeys, plus classic A/M/S/H unit orders. Item keys are left as they are.",
+  "settings": {
+    "UseHeroBindings": "1"
+  },
+  "keys": {
+    "HeroAttack": "A",
+    "HeroMove": "M",
+    "HeroStop": "S",
+    "HeroHold": "H"
+  }
+}
